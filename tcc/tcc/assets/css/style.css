@@ -1,0 +1,86 @@
+    #menu{
+        background-color: #8e0000;
+    }
+
+    h1{
+        color: #8e0000;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h4{
+        color: white;
+    }
+
+    #conteudos{
+        background: url("../img/fundo.jpg");
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+
+    #cadastro{
+        padding: 10px 10px 10px 10px;
+        border: solid 3px #8e0000;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 400px;
+        margin-right: 400px;
+        border-radius: 10px;
+    }
+
+    .conteudoCad{
+        padding: 10px 10px 10px 10px;
+    }
+
+    #bot1, #bot2, #bot3{
+        background-color: #8e0000;
+        border: solid 2px white;
+        border-radius: 15px;
+        color: white;
+    }
+    #botao1 :hover{
+        background-color: white;
+        border: solid 2px #8e0000;
+        border-radius: 15px;
+        color: #8e0000;
+    }
+    #botao2 :hover{
+        background-color: white;
+        border: solid 2px #8e0000;
+        border-radius: 15px;
+        color: #8e0000;
+    }
+    #botao3 :hover{
+        background-color: white;
+        border: solid 2px #8e0000;
+        border-radius: 15px;
+        color: #8e0000;
+    }
+    #menu{
+        background-color: #8e0000;
+    }
+    #menu a{
+        color: white;
+    }
+    #sige{
+        font-size: 70px;
+    }
+    #navbarTogglerDemo02 :hover{
+        background-color: white;
+        border-radius: 15px;
+        color: #8e0000;
+    }
+    #registro{
+        font-size: 15px;
+        border: solid 2px white;
+        border-radius: 15px;
+        float: right;
+    }
+
+    #rod{
+        bottom: 0px;
+        background-color: #8e0000;
+        color: white ;
+    }

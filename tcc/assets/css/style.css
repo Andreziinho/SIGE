@@ -2,34 +2,22 @@
         background-color: #8e0000;
     }
 
-    #abas{
-        margin-top: 100px;
-        margin-left: 560px;
+    h1{
+        color: #8e0000;
+        text-align: center;
+        margin-top: 50px;
     }
 
-    #abas ul{
-        display: inline;
-    }
-
-    #abas ul li{
-        display: inline-block;
-        border: solid 1px #8e0000;
-        padding: 10px 10px 5px;
-        border-radius: 10px 10px 0 0;
-        color: aliceblue;
+    h4{
+        color: white;
     }
 
     #conteudos{
-        border: solid 3px #8e0000;
-        margin-bottom: 200px;
-        margin-left: 550px;
-        margin-right: 550px;
-        text-align: center;
-        border-radius: 10px;
-    }
-    .conteudoaba1{
-        padding: 10px 10px 10px 10px;
-        text-align: center;
+        background: url("../img/fundo.jpg") no-repeat center center;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
     }
 
     #cadastro{
@@ -46,12 +34,7 @@
         padding: 10px 10px 10px 10px;
     }
 
-    .selecionado{
-        background-color: #8e0000;
-        box-shadow: 2px 2px 3px #670000;
-    }
-
-    #bot1, #bot2{
+    #bot1, #bot2, #bot3{
         background-color: #8e0000;
         border: solid 2px white;
         border-radius: 15px;
@@ -64,6 +47,12 @@
         color: #8e0000;
     }
     #botao2 :hover{
+        background-color: white;
+        border: solid 2px #8e0000;
+        border-radius: 15px;
+        color: #8e0000;
+    }
+    #botao3 :hover{
         background-color: white;
         border: solid 2px #8e0000;
         border-radius: 15px;
@@ -84,7 +73,7 @@
         color: #8e0000;
     }
     #registro{
-        font-size: 20px;
+        font-size: 15px;
         border: solid 2px white;
         border-radius: 15px;
         float: right;

@@ -1,11 +1,11 @@
 <?php
 require 'Produto.php';
 
-class CrudMaterial
+class CrudQuadra
 {
     private $conexao;
 
-    public function getMateriais(){
+    public function getQuadras(){
         $this->conexao = DBConnection::getConexao();
         $sql = "select * from emprestimo";
 
@@ -21,7 +21,7 @@ class CrudMaterial
 
     }
 
-    public function getMaterial($idnum)
+    public function getQuadra($idnum)
     {
         $this->conexao = DBConnection::getConexao();
         $sql = "select * from emprestimo WHERE idnum = $idnum";
@@ -34,7 +34,7 @@ class CrudMaterial
         return $mat;
     }
 
-    public function insertMaterial(Produto $mat){
+    public function insertQuadra(Produto $mat){
         $this->conexao = DBConnection::getConexao();
         $sql = "insert into emprestimo(nome,descricao,especificao,qtd) values ('{$mat->getNome()}','{$mat->getDescricao()}','{$mat->getEspecificacao()}','{$mat->getQtd()}')";
 
@@ -45,7 +45,7 @@ class CrudMaterial
         }
     }
 
-    public function atualizaMaterial(Produto $mat, $idnum)
+    public function atualizaQuadra(Produto $mat, $idnum)
     {
         $this->conexao = DBConnection::getConexao();
         $dados[] = $mat->getNome();
@@ -56,7 +56,7 @@ class CrudMaterial
         $this->conexao->exec($sql);
     }
 
-    public function deletaMaterial($idnum)
+    public function deletaQuadra($idnum)
     {
         $this->conexao = DBConnection::getConexao();
         $sql = "delete from emprestimo WHERE idnum = $idnum";

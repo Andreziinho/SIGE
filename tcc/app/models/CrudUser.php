@@ -1,6 +1,5 @@
 <?php
 
-
 require 'Usuario.php';
 
 class CrudUser

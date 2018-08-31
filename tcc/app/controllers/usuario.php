@@ -10,7 +10,7 @@ $materiaisCrud = new CrudMaterial();
 switch ($acao){
     case 'cadastrar':
         if (isset($_POST['enviar'])){
-            $user = new Usuario($_POST['cpf'],$_POST['nome'],$_POST['data'],$_POST['ocupacao'],null,$_POST['usuario'],$_POST['senha']);
+            $user = new Usuario($_POST['cpf'],$_POST['nome'],$_POST['data'],$_POST['ocupacao'],$_POST['sexo'],$_POST['usuario'],$_POST['senha']);
             $crud->insertUser($user);
             echo"<script language='javascript' type='text/javascript'>alert('Cadastro realizado com sucesso.');window.location.href='../../index.php';               </script>";
             include '../../index.php';
